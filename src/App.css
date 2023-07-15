@@ -1,0 +1,134 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  background-color: #9AAFB7 !important;
+  color: #fff !important;
+}
+
+.navButton {
+  float: right;
+}
+
+.navItem {
+  text-transform: none !important;
+  font-size: 18px !important;
+  font-weight: 200 !important;
+}
+
+.drawerTitle {
+  padding: 0px 16px;
+}
+
+.navbarButton {
+  background-color: #fff;
+}
+
+.container {
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+/* Service Option Auswahl */
+.serviceOption {
+  margin: 10px;
+  padding: 0px !important;
+  height: 400px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #fff;
+  overflow: hidden;
+  -webkit-transition: all .15s;
+  -moz-transition: all .15s;
+  -o-transition: all .15s;
+  transition: all .15s;
+}
+
+.serviceOption:hover {
+  border: 2px solid #bebebe;
+  -ms-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#opt1 {
+  background-image: url("../public/notar.jpg");
+}
+
+#opt2 {
+  background-image: url("../public/notar.jpg");
+}
+
+#opt3 {
+  background-image: url("../public/notar.jpg");
+}
+
+.serviceGrid {
+  width: 100%;
+  margin-left: 0px !important;
+  max-width: 100%;
+  margin-top: 100px !important;
+}
+
+.serviceGridTitle {
+  position: absolute;
+  display: block;
+  padding: 5px;
+  left: 0px;
+  width: 100%;
+  color: #fff;
+  font-size: 34px !important;
+  font-weight: 600 !important;
+  text-align: center;
+}
+
+.serviceOptionInner {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  background-color: #9aafb77a;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Service Option Auswahl */

@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2b3133;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,97 +38,656 @@
   }
 }
 
+a {
+  font-weight: 500;
+  color: #9AAFB7;
+  text-decoration: none;
+}
+.sectionTitle {
+  font-size: 34px !important;
+  color: #000 !important;
+  margin: 20px 0px 20px 0px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+.sectionTitle3 {
+  font-size: 28px !important;
+  font-weight: 300 !important;
+  color: #000 !important;
+  margin: 20px 0px 20px 0px !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+.subtitleH3 {
+  font-size: 28px !important;
+  margin: 0px 0px 10px 0px !important;
+  font-weight: 300 !important;
+}
+.sectionText {
+  margin-bottom: 20px !important;
+}
+p{
+  font-size: 18px !important;
+  font-weight: 300 !important; 
+}
+
 .navbar {
   background-color: #9AAFB7 !important;
   color: #fff !important;
+  box-shadow: none !important;
 }
-
+.navTitleLink {
+  color: #fff !important;
+  font-weight: 300;
+}
 .navButton {
   float: right;
 }
-
-.navItem {
+.navItems {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.navItems {
   text-transform: none !important;
   font-size: 18px !important;
   font-weight: 200 !important;
 }
-
+.navItem {
+  text-transform: none !important;
+  text-decoration: none;
+  color: #fff;
+  margin: 0px 10px;
+  font-weight: 200;
+  font-size: 20px;
+}
+.navItem:hover {
+  color: #171717;
+}
+.drawerTitle {
+  font-weight: 300 !important;
+  line-height: 1.2em;
+  background-color: #9AAFB7;
+  color: #fff;
+  margin: 0px !important;
+  padding: 15px !important;
+}
+.navItemDrawer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: none !important;
+  text-decoration: none;
+  color: #000;
+  margin: 20px 0px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.navItemDrawer:hover {
+  color: #b3b3b3;
+}
 .drawerTitle {
   padding: 0px 16px;
 }
-
 .navbarButton {
   background-color: #fff;
+  border-radius: 2px;
+}
+.navbarButton {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: none;
+  border: none;
+}
+.container {
+  padding: 150px 0px;
+  position: relative;
+}
+.mainWrapper {
+  background-color: #fff;
+  z-index: 9;
+  position: relative;
 }
 
-.container {
+/* HERO */
+.heroWrapper {
+  position: relative;
+  height: 90vh;
   background-color: #fff;
-  padding-top: 100px;
+  background-image: url("../public/back-T2.jpg");
+  /* src -> https://commons.wikimedia.org/wiki/File:20120408030MDR_Oranienburg_Schlo%C3%9F.jpg */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0;
 }
+.heroWrapperLayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(49, 51, 51, 0.0);
+  z-index: 1;
+  padding-bottom: 200px;
+}
+.containerHero {
+  position: relative;
+  padding-top: 100px;
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+  height: 100%;
+  z-index: 2;
+  color: #fff;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.heroCTA {
+  background-color: #fff !important;
+  color: #2b3133 !important;
+  padding: 3px 20px 0px 20px !important;
+  font-size: 16px !important;
+  float: left;
+  box-shadow: none !important;
+  border-radius: 2px !important;
+  text-transform: none !important;
+  margin: auto;
+  display: block;
+}
+.heroCTA:hover {
+  background-color: #2b3133 !important;
+  color: #fff !important;
+}
+.HeroBox {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  position: fixed;
+  width: 50%;
+  left: 25%;
+  z-index: 1;
+}
+.HeroBox  > h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.HeroBox > p {
+  color: #fff;
+  font-size: 18px !important;
+  font-weight: 300;
+  text-align: center;
+  max-width: 330px;
+}
+.HeroLogo {
+  width:60px;
+  margin: 10px;
+}
+/* HERO */
+
+/* Footer */
+.Footer {
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+  background-color: #2b3133;
+  color: #fff;
+}
+.FooterContainer {
+  display: flex !important;
+  color: #fff;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.FooterLeft {
+  margin: 0;
+}
+.FooterRight{
+  display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    text-align: right;
+}
+.FooterImage {
+  width: 38px;
+}
+.FooterLink {
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  margin: 2px 0px;
+  font-weight: 200;
+}
+.FooterLink:hover {
+  color: #9AAFB7;
+}
+.FooterTitle {
+  font-weight: 300 !important;
+  font-size: 28px !important;
+  margin-top: -0px !important;
+}
+/* Footer */
 
 /* Service Option Auswahl */
-.serviceOption {
-  margin: 10px;
-  padding: 0px !important;
-  height: 400px;
+.serviceContainer {
+  margin-top: -0px;
+  background-color: transparent;
+  padding-top: 50px;
+}
+.servOptItem {
+  background-color: transparent;
+  width: 100%;
+  height: 450px;
   position: relative;
+  overflow: hidden;
+  /* border: 4px solid transparent; */
+  border-radius: 2px;
+  box-shadow: 0px 0px 20px #0000002d;
+}
+.servOptLink {
+  width: 100% !important;
+  height: 100%;
+   display: block;
+  /* border: 2px solid #fff; */
+  overflow: hidden;
+}
+.servOptLink:hover .servItemBackground{
+  transform: scale(1.05);
+}
+.servOptLink:hover .serviceLayer{
+  opacity: 0;
+}
+.servItemBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-position: center;
   background-size: cover;
-  border: 2px solid #fff;
-  overflow: hidden;
-  -webkit-transition: all .15s;
-  -moz-transition: all .15s;
-  -o-transition: all .15s;
-  transition: all .15s;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
 }
-
-.serviceOption:hover {
-  border: 2px solid #bebebe;
-  -ms-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -webkit-transform: scale(1.03);
-  -o-transform: scale(1.03);
-  transform: scale(1.03);
-}
-
 #opt1 {
-  background-image: url("../public/notar.jpg");
+  background-image: url("../public/service1.jpg");
+  /* src -> https://artist.scop.io/image/white-concrete-building-near-green-grass-field-8 */
+  /* src -> https://artist.scop.io/image/yellow-and-brown-concrete-building-1 */
 }
 
 #opt2 {
-  background-image: url("../public/notar.jpg");
+ background-image: url("../public/service2b.jpg");
+ /* src -> https://artist.scop.io/image/woman-in-white-long-sleeve-shirt-sitting-on-chair-20 */
+ /* src -> https://artist.scop.io/image/woman-in-white-long-sleeve-shirt-sitting-on-chair-20 */
 }
 
 #opt3 {
-  background-image: url("../public/notar.jpg");
+  background-image: url("../public/service3b.jpg");
+  /* src -> https://artist.scop.io/image/family-standing-beside-glass-window */
+  /* src -> https://artist.scop.io/image/person-holding-a-cup-of-coffee-while-sitting-at-a-desk-with-laptop-in-office */
+  /* src -> https://artist.scop.io/image/person-holding-black-android-smartphone-51 */
 }
-
-.serviceGrid {
-  width: 100%;
-  margin-left: 0px !important;
-  max-width: 100%;
-  margin-top: 100px !important;
-}
-
-.serviceGridTitle {
+.serviceLayer {
   position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #9aafb745;
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.servOptText {
   display: block;
+  position: absolute;
   padding: 5px;
   left: 0px;
   width: 100%;
   color: #fff;
-  font-size: 34px !important;
-  font-weight: 600 !important;
+  font-size: 28px !important;
+  font-weight: 400 !important;
   text-align: center;
+  margin: 0px;
+  background-color: #9AAFB7;
+  text-decoration: none !important;
 }
-
-.serviceOptionInner {
+.servOptTextModal {
+  display: block;
+  position: relative;
+  padding: 10px;
+  left: 0px;
+  width: 100%;
+  color: #fff;
+  margin: 0px;
+  background-color: #fff;
+  text-decoration: none !important;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 0px 0px 20px #0000002d;
+}
+.servOptTextModal:hover > p {
+  transform: scale(1.1);
+}
+.servOptTextBox {
+  color: #000;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  text-align: center;
+  margin: 0px;
+  background-color: #fff;
+  text-decoration: none !important;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
+}
+.modalServiceGrid {
+  margin-top: 10px !important;
+}
+.servOptTextWrapper {
   display: grid;
+    width: 100%;
+    height: 100%;
+    align-items: end;
+    justify-content: center;
+    bottom: 0px;
+    position: absolute;
+}
+.modalOuterBox {
+  position: relative;
+}
+.modalInnerBox {
+  box-shadow: 0px 0px 20px #0000002d;
+  border-radius: 3px;
+  border: none !important;
+  background-color: #9AAFB7 !important;
+  color: #fff;
+}
+.modalInnerBox:focus-visible {
+  border: none !important;
+}
+.modalTitle {
+  font-size: 24px !important;
+    font-weight: 400;
+}
+.modalText {
+  font-size: 18px !important;
+    font-weight: 400;
+}
+/* Service Option Auswahl */
+
+/* Text Sektion */
+.bannerSection {
+  background-color: #FAFAFA;
+  padding: 0px 0px;
+}
+.textBox {
+  background-color: #9AAFB7;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 0px 20px #0000002d;
+  position: relative;
+}
+.textBoxInner {
+  padding: 20px;
+  position: relative;
+}
+.textboxImage {
   width: 100%;
   height: 100%;
-  background-color: #9aafb77a;
+  position: absolute;
+  display: block;
+  object-fit: cover;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.textBoxImageInner:hover .textboxImage {
+  transform: scale(1.05);
+}
+/* .textBoxImageInner:hover .textboxImageLayer  {
+  opacity: 0.3;
+} */
+.textBoxImageInner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.textboxImageLayer {
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  /* background-color: #9aafb787; */
+  background: rgb(154,175,183);
+background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 84%);
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.list {
+  padding-left: 25px;
+}
+.marginTop {
+  margin-top: 50px !important;
+}
+/* Text Sektion */
+
+/* Contact */
+.contactWrapper {
+  box-shadow: 0px 0px 20px #0000002d;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 50px 0px;
+}
+.contactFormTop {
+  background-color: #9AAFB7;
+  color: #fff;
+  padding-top: 10px;
+}
+.contactTopItem > a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   align-items: center;
   justify-content: center;
 }
+.contactTopIcon {
+  font-size: 45px !important;
+}
+.contactTopText {
+  margin: 10px;
+  text-align: center;
+}
+.contactFormTopGrid {
+  position: relative;
+  padding: 10px;
+}
+.contactBottomWrapper {
+  position: relative;
+  padding: 10px;
+}
+.contactInput {
+  width: 100%;
+}
+#contactCheckbox > span {
+  font-size: 14px;
+  line-height: 17px;
+}
+.contactFormBtn {
+  background-color: #9AAFB7 !important;
+  padding: 4px 15px 2px 15px !important;
+  font-size: 18px !important;
+  float: left;
+  box-shadow: none !important;
+  border-radius: 3px !important;
+  text-transform: none !important;
+  width: 100%;
+}
+#contactFormBottomControls {
+  margin-top: -20px;
+}
+.contactMap {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px #0000002d;
+  border-radius: 3px;
+  height: 350px;
+}
+.mapFrame {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 350px;
+}
+#gmap_canvas img{
+  max-width:none!important;
+  background:none!important
+}
+.mapouterBody {
+  overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.mapInnerBody {
+  position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;
+}
+.mapSmall {
+  line-height: 1.8;font-size: 2px;background: #fff;
+}
+.gridImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root, .css-85zwa9-MuiInputBase-root-MuiFilledInput-root {
+  background-color: rgb(250 250 250) !important;
+}
+/* Contact */
 
-/* Service Option Auswahl */
+/* BREAKPOINTS */
+@media (max-width: 800px) {
+  .HeroBox {
+    width: 80%;
+    left: 10%;
+    z-index: 1;
+    margin-top: -20px;
+  }
+  .HeroBox  > h1 {
+    font-size: 32px;
+  }
+  .HeroBox > p {
+    font-size: 16px !important;
+  }
+  .HeroLogo {
+    width:50px;
+    margin: 10px;
+  }
+  .heroCTA {
+    font-size: 14px !important;
+  }
+  p { font-size: 16px !important;}
+  .sectionTitle {
+    font-size: 28px !important;
+}
+.servOptItem {height: 230px;}
+#opt1 {background-position: 50% 80%;}
+#opt2 {background-position: 50% 50%;}
+#opt3 {background-position: 50% 30%;}
+.servOptText {
+  padding: 2px;
+  font-size: 24px !important;
+}
+.container {
+  padding: 100px 0px;
+}
+.subtitleH3 {
+  font-size: 22px !important;
+}
+.textBoxInner {
+  padding: 15px;
+}
+.textBoxImageInner {
+  height: 150px;
+}
+.textboxImageLayer {
+  width: 100%;
+  background: rgb(154,175,183);
+  background: linear-gradient(180deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 40%);
+  opacity: 1;
+}
+.contactTopIcon {
+  font-size: 35px !important;
+}
+.contactTopItem > a {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contactFormTopGrid {
+  position: relative;
+  padding: 15px;
+}
+.contactBottomWrapper {
+  padding: 0px;
+}
+.css-1avtkvr-MuiGrid-root>.MuiGrid-item {
+  padding-left: 16px;
+}
+.contactFormTopGrid {
+  padding: 10px 15px;
+}
+.heroWrapper {
+  height: 75vh;
+}
+}
+@media (max-width: 600px) {
+  .servOptItem {height: 190px;}
+  .FooterContainer {
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.FooterTitle {
+  font-size: 26px !important;
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+.FooterLink {
+  text-align: center;
+}
+.serviceContainer {
+  padding-top: 40px;
+}
+}
+/* BREAKPOINTS */

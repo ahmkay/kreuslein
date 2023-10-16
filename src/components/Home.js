@@ -6,6 +6,7 @@ import Contactform from './Contactform';
 import ModalImmo from './ModalImmo';
 import ModalUntern from './ModalUntern';
 import ModalErbrecht from './ModalErbrecht';
+import ModalFamilie from './ModalFamilie';
 import '../App.css';
 
 function App() {
@@ -41,17 +42,22 @@ function App() {
                     <Container maxWidth="md" className="container serviceContainer">
                         <Typography variant='h2' className='sectionTitle'>Unsere Leistungen</Typography>
                         <Grid container justifyContent="center" spacing={2}>
-                            <Grid item xs={12} sm={4}>
+                            <Grid item xs={6} sm={3}>
                                 <div className='servOptItem'>
                                 <ModalImmo />
                                 </div>
                             </Grid>
-                            <Grid item xs={12} sm={4}>
+                            <Grid item xs={6} sm={3}>
+                                <div className='servOptItem'>
+                                <ModalFamilie />
+                                </div>
+                            </Grid>
+                            <Grid item xs={6} sm={3}>
                                 <div className='servOptItem'>
                                     <ModalUntern />
                                 </div>
                             </Grid>
-                            <Grid item xs={12} sm={4}>
+                            <Grid item xs={6} sm={3}>
                                 <div className='servOptItem'>
                                 <ModalErbrecht />
                                 </div>
@@ -96,15 +102,9 @@ function App() {
                             Oder kommen Sie uns direkt vor Ort besuchen.
                         </Typography>
                         <Box className="contactMap">
-                            <div className='mapouterBody'>
-                                <iframe className='mapFrame' src="https://maps.google.com/maps?width=990&amp;height=440&amp;hl=en&amp;q=Prenzlauer%20Str.%2011%2C%2016515%20Oranienburg+(Notare%20Holland%20%26%20Kreu%C3%9Flein)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                <div className='mapInnerBody'>
-                                    <small className='mapSmall'>Powered by <a href="https://embedgooglemaps.com/ru/">embed googlemaps ru</a> & <a href="https://sms-lån-som-beviljar-alla.se/">sms lån som beviljar alla</a>
-                                    </small>
-                                </div>
-                            </div><br />
-
+                        <iframe width="100%" height="500px" frameborder="0" allowfullscreen src="//umap.openstreetmap.de/de/map/notar-kreuslein-holland_47149?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false"></iframe>
                         </Box>
+                
                     </Container>
 
                     </Box>

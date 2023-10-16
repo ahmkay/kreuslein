@@ -290,12 +290,13 @@ p{
 .servOptItem {
   background-color: transparent;
   width: 100%;
-  height: 450px;
+  height: 350px;
   position: relative;
   overflow: hidden;
   /* border: 4px solid transparent; */
   border-radius: 2px;
   box-shadow: 0px 0px 20px #0000002d;
+  cursor: pointer;
 }
 .servOptLink {
   width: 100% !important;
@@ -330,14 +331,17 @@ p{
 #opt2 {
  background-image: url("../public/service2b.jpg");
  /* src -> https://artist.scop.io/image/woman-in-white-long-sleeve-shirt-sitting-on-chair-20 */
- /* src -> https://artist.scop.io/image/woman-in-white-long-sleeve-shirt-sitting-on-chair-20 */
 }
 
 #opt3 {
-  background-image: url("../public/service3b.jpg");
+  background-image: url("../public/service4.jpg");
   /* src -> https://artist.scop.io/image/family-standing-beside-glass-window */
   /* src -> https://artist.scop.io/image/person-holding-a-cup-of-coffee-while-sitting-at-a-desk-with-laptop-in-office */
   /* src -> https://artist.scop.io/image/person-holding-black-android-smartphone-51 */
+}
+#opt4 {
+  background-image: url("../public/service3b.jpg");
+  /* src -> https://artist.scop.io/image/person-writing-on-white-paper-79 */
 }
 .serviceLayer {
   position: absolute;
@@ -378,9 +382,10 @@ p{
   overflow: hidden;
   border-radius: 2px;
   box-shadow: 0px 0px 20px #0000002d;
+  transition: all .2s;
 }
 .servOptTextModal:hover > p {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .servOptTextBox {
   color: #000;
@@ -615,13 +620,13 @@ background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 8
   .sectionTitle {
     font-size: 28px !important;
 }
-.servOptItem {height: 230px;}
+.servOptItem {height: 250px;}
 #opt1 {background-position: 50% 80%;}
 #opt2 {background-position: 50% 50%;}
 #opt3 {background-position: 50% 30%;}
 .servOptText {
   padding: 2px;
-  font-size: 24px !important;
+  font-size: 20px !important;
 }
 .container {
   padding: 100px 0px;
@@ -669,7 +674,7 @@ background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 8
 }
 }
 @media (max-width: 600px) {
-  .servOptItem {height: 190px;}
+  .servOptItem {height: 220px;}
   .FooterContainer {
     display: flex !important;
     flex-direction: column;

@@ -7,10 +7,11 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 500,
-    maxWidth: '80%',
-    p: '20px',
-    borderColor: '#9AAFB7',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
 };
 
 export default function ModalImmo() {
@@ -22,13 +23,13 @@ export default function ModalImmo() {
         <div>
 
             <a onClick={handleOpen} className='servOptLink'>
-                <div className='servItemBackground' id="opt1"></div>
+                <div className='servItemBackground' id="opt4"></div>
                 <div className='serviceLayer'></div>
                 <div className='servOptTextWrapper'>
-                    <p className='servOptText'>Immobilien</p>
+                    <p className='servOptText'>Familie</p>
                 </div>
             </a>
-            <Modal className='modalOuterBox'
+            <Modal
                 open={open}
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
@@ -36,7 +37,7 @@ export default function ModalImmo() {
             >
                 <Box className='modalInnerBox' sx={style}>
                     <Typography id="modal-modal-title" variant="h6" component="h2" className='modalTitle'>
-                        Immobilien Leistungen
+                        Erbrecht Leistungen
                     </Typography>
                     <Typography id="modal-modal-description" sx={{ mt: 2 }} className='modalText'>
                         Welche Art Service benötigen Sie?
@@ -45,12 +46,17 @@ export default function ModalImmo() {
                     <Grid container justifyContent="center" spacing={2} className='modalServiceGrid'>
                         <Grid item xs={12} sm={12}>         
                                 <a href="#" className='servOptTextModal'>
-                                    <p className='servOptTextBox'>Kaufverträge</p>
+                                    <p className='servOptTextBox'>Erbrecht Service #1</p>
                                 </a>
                         </Grid>
                         <Grid item xs={12} sm={12}>         
                         <a href="#" className='servOptTextModal'>
-                                    <p className='servOptTextBox'>Schenken & vorweggenommene Erbfolge</p>
+                                    <p className='servOptTextBox'>Erbrecht Service #2</p>
+                                </a>
+                        </Grid>
+                        <Grid item xs={12} sm={12}>         
+                        <a href="#" className='servOptTextModal'>
+                                    <p className='servOptTextBox'>Erbrecht Service #3</p>
                                 </a>
                         </Grid>
                     </Grid>

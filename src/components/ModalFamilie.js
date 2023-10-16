@@ -46,17 +46,12 @@ export default function ModalImmo() {
                     <Grid container justifyContent="center" spacing={2} className='modalServiceGrid'>
                         <Grid item xs={12} sm={12}>         
                                 <a href="#" className='servOptTextModal'>
-                                    <p className='servOptTextBox'>Erbrecht Service #1</p>
+                                    <p className='servOptTextBox'>Ehe & Partnerschaft</p>
                                 </a>
                         </Grid>
                         <Grid item xs={12} sm={12}>         
                         <a href="#" className='servOptTextModal'>
-                                    <p className='servOptTextBox'>Erbrecht Service #2</p>
-                                </a>
-                        </Grid>
-                        <Grid item xs={12} sm={12}>         
-                        <a href="#" className='servOptTextModal'>
-                                    <p className='servOptTextBox'>Erbrecht Service #3</p>
+                                    <p className='servOptTextBox'>Vorsorgevollmacht & Patientenverfügung</p>
                                 </a>
                         </Grid>
                     </Grid>

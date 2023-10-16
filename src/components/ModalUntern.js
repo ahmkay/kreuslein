@@ -46,17 +46,12 @@ export default function ModalImmo() {
                     <Grid container justifyContent="center" spacing={2} className='modalServiceGrid'>
                         <Grid item xs={12} sm={12}>         
                                 <a href="#" className='servOptTextModal'>
-                                    <p className='servOptTextBox'>Unternehmen Service #1</p>
+                                    <p className='servOptTextBox'>Gründung</p>
                                 </a>
                         </Grid>
                         <Grid item xs={12} sm={12}>         
                         <a href="#" className='servOptTextModal'>
-                                    <p className='servOptTextBox'>Unternehmen Service #2</p>
-                                </a>
-                        </Grid>
-                        <Grid item xs={12} sm={12}>         
-                        <a href="#" className='servOptTextModal'>
-                                    <p className='servOptTextBox'>Unternehmen Service #3</p>
+                                    <p className='servOptTextBox'>Umorganisation & Verkauf</p>
                                 </a>
                         </Grid>
                     </Grid>

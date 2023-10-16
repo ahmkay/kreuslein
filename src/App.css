@@ -43,12 +43,14 @@ a {
   color: #9AAFB7;
   text-decoration: none;
 }
+
 .sectionTitle {
   font-size: 34px !important;
   color: #000 !important;
   margin: 20px 0px 20px 0px !important;
   font-family: 'Roboto', sans-serif !important;
 }
+
 .sectionTitle3 {
   font-size: 28px !important;
   font-weight: 300 !important;
@@ -56,17 +58,20 @@ a {
   margin: 20px 0px 20px 0px !important;
   font-family: 'Roboto', sans-serif !important;
 }
+
 .subtitleH3 {
   font-size: 28px !important;
   margin: 0px 0px 10px 0px !important;
   font-weight: 300 !important;
 }
+
 .sectionText {
   margin-bottom: 20px !important;
 }
-p{
+
+p {
   font-size: 18px !important;
-  font-weight: 300 !important; 
+  font-weight: 300 !important;
 }
 
 .navbar {
@@ -74,36 +79,43 @@ p{
   color: #fff !important;
   box-shadow: none !important;
 }
+
 .navTitleLink {
   color: #fff !important;
   font-weight: 300;
 }
+
 .navButton {
   float: right;
 }
+
 .navItems {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    align-items: center;
-    column-gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  column-gap: 20px;
 }
+
 .navItems {
   text-transform: none !important;
   font-size: 18px !important;
-  font-weight: 200 !important;
+  font-weight: 400 !important;
 }
+
 .navItem {
   text-transform: none !important;
   text-decoration: none;
   color: #fff;
   margin: 0px 10px;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 20px;
 }
+
 .navItem:hover {
   color: #171717;
 }
+
 .drawerTitle {
   font-weight: 300 !important;
   line-height: 1.2em;
@@ -112,6 +124,7 @@ p{
   margin: 0px !important;
   padding: 15px !important;
 }
+
 .navItemDrawer {
   display: block;
   width: 100%;
@@ -123,26 +136,32 @@ p{
   font-weight: 300;
   font-size: 20px;
 }
+
 .navItemDrawer:hover {
   color: #b3b3b3;
 }
+
 .drawerTitle {
   padding: 0px 16px;
 }
+
 .navbarButton {
   background-color: #fff;
   border-radius: 2px;
 }
+
 .navbarButton {
   background-color: #fff;
   border-radius: 2px;
   box-shadow: none;
   border: none;
 }
+
 .container {
   padding: 150px 0px;
   position: relative;
 }
+
 .mainWrapper {
   background-color: #fff;
   z-index: 9;
@@ -162,6 +181,7 @@ p{
   background-size: cover;
   z-index: 0;
 }
+
 .heroWrapperLayer {
   position: absolute;
   width: 100%;
@@ -170,6 +190,7 @@ p{
   z-index: 1;
   padding-bottom: 200px;
 }
+
 .containerHero {
   position: relative;
   padding-top: 100px;
@@ -196,10 +217,12 @@ p{
   margin: auto;
   display: block;
 }
+
 .heroCTA:hover {
   background-color: #2b3133 !important;
   color: #fff !important;
 }
+
 .HeroBox {
   background-color: transparent;
   color: #fff;
@@ -215,24 +238,28 @@ p{
   left: 25%;
   z-index: 1;
 }
-.HeroBox  > h1 {
+
+.HeroBox>h1 {
   color: #fff;
   font-size: 40px;
   font-weight: 300;
   text-align: center;
   margin-bottom: 5px;
 }
-.HeroBox > p {
+
+.HeroBox>p {
   color: #fff;
   font-size: 18px !important;
   font-weight: 300;
   text-align: center;
   max-width: 330px;
 }
+
 .HeroLogo {
-  width:60px;
+  width: 60px;
   margin: 10px;
 }
+
 /* HERO */
 
 /* Footer */
@@ -243,6 +270,7 @@ p{
   background-color: #2b3133;
   color: #fff;
 }
+
 .FooterContainer {
   display: flex !important;
   color: #fff;
@@ -252,18 +280,22 @@ p{
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .FooterLeft {
   margin: 0;
 }
-.FooterRight{
+
+.FooterRight {
   display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-    text-align: right;
+  flex-direction: column;
+  align-content: flex-end;
+  text-align: right;
 }
+
 .FooterImage {
   width: 38px;
 }
+
 .FooterLink {
   text-align: right;
   color: #fff;
@@ -271,14 +303,17 @@ p{
   margin: 2px 0px;
   font-weight: 200;
 }
+
 .FooterLink:hover {
   color: #9AAFB7;
 }
+
 .FooterTitle {
   font-weight: 300 !important;
   font-size: 28px !important;
   margin-top: -0px !important;
 }
+
 /* Footer */
 
 /* Service Option Auswahl */
@@ -287,6 +322,7 @@ p{
   background-color: transparent;
   padding-top: 50px;
 }
+
 .servOptItem {
   background-color: transparent;
   width: 100%;
@@ -298,19 +334,23 @@ p{
   box-shadow: 0px 0px 20px #0000002d;
   cursor: pointer;
 }
+
 .servOptLink {
   width: 100% !important;
   height: 100%;
-   display: block;
+  display: block;
   /* border: 2px solid #fff; */
   overflow: hidden;
 }
-.servOptLink:hover .servItemBackground{
+
+.servOptLink:hover .servItemBackground {
   transform: scale(1.05);
 }
-.servOptLink:hover .serviceLayer{
+
+.servOptLink:hover .serviceLayer {
   opacity: 0;
 }
+
 .servItemBackground {
   position: absolute;
   width: 100%;
@@ -322,6 +362,7 @@ p{
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
+
 #opt1 {
   background-image: url("../public/service1.jpg");
   /* src -> https://artist.scop.io/image/white-concrete-building-near-green-grass-field-8 */
@@ -329,8 +370,8 @@ p{
 }
 
 #opt2 {
- background-image: url("../public/service2b.jpg");
- /* src -> https://artist.scop.io/image/woman-in-white-long-sleeve-shirt-sitting-on-chair-20 */
+  background-image: url("../public/service2b.jpg");
+  /* src -> https://artist.scop.io/image/woman-in-white-long-sleeve-shirt-sitting-on-chair-20 */
 }
 
 #opt3 {
@@ -339,10 +380,12 @@ p{
   /* src -> https://artist.scop.io/image/person-holding-a-cup-of-coffee-while-sitting-at-a-desk-with-laptop-in-office */
   /* src -> https://artist.scop.io/image/person-holding-black-android-smartphone-51 */
 }
+
 #opt4 {
   background-image: url("../public/service3b.jpg");
   /* src -> https://artist.scop.io/image/person-writing-on-white-paper-79 */
 }
+
 .serviceLayer {
   position: absolute;
   width: 100%;
@@ -354,6 +397,10 @@ p{
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
+.leistungenGrid {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
 
 .servOptText {
   display: block;
@@ -362,13 +409,14 @@ p{
   left: 0px;
   width: 100%;
   color: #fff;
-  font-size: 28px !important;
+  font-size: 24px !important;
   font-weight: 400 !important;
   text-align: center;
   margin: 0px;
   background-color: #9AAFB7;
   text-decoration: none !important;
 }
+
 .servOptTextModal {
   display: block;
   position: relative;
@@ -377,62 +425,74 @@ p{
   width: 100%;
   color: #fff;
   margin: 0px;
-  background-color: #fff;
+  background-color: #9AAFB7;
   text-decoration: none !important;
   overflow: hidden;
   border-radius: 2px;
   box-shadow: 0px 0px 20px #0000002d;
   transition: all .2s;
 }
-.servOptTextModal:hover > p {
-  transform: scale(1.05);
+.servOptTextModal:hover {
+  background-color: #313131;
+  color: #fff;;
+  box-shadow: 0px 0px 20px #0000003d;
 }
+
+.servOptTextModal:hover>p {
+  /* transform: scale(1.02); */
+  color: #fff;
+}
+
 .servOptTextBox {
-  color: #000;
+  color: #fff;
   font-size: 20px !important;
   font-weight: 400 !important;
   text-align: center;
   margin: 0px;
-  background-color: #fff;
   text-decoration: none !important;
-  -webkit-transition: all .1s ease;
-  -moz-transition: all .1s ease;
-  -o-transition: all .1s ease;
   transition: all .1s ease;
 }
+
 .modalServiceGrid {
   margin-top: 10px !important;
 }
+
 .servOptTextWrapper {
   display: grid;
-    width: 100%;
-    height: 100%;
-    align-items: end;
-    justify-content: center;
-    bottom: 0px;
-    position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: end;
+  justify-content: center;
+  bottom: 0px;
+  position: absolute;
 }
+
 .modalOuterBox {
   position: relative;
 }
+
 .modalInnerBox {
   box-shadow: 0px 0px 20px #0000002d;
   border-radius: 3px;
   border: none !important;
-  background-color: #9AAFB7 !important;
-  color: #fff;
+  background-color: #ffffff !important;
+  color: #313131;
 }
+
 .modalInnerBox:focus-visible {
   border: none !important;
 }
+
 .modalTitle {
   font-size: 24px !important;
-    font-weight: 400;
+  font-weight: 400;
 }
+
 .modalText {
   font-size: 18px !important;
-    font-weight: 400;
+  font-weight: 400;
 }
+
 /* Service Option Auswahl */
 
 /* Text Sektion */
@@ -440,6 +500,7 @@ p{
   background-color: #FAFAFA;
   padding: 0px 0px;
 }
+
 .textBox {
   background-color: #9AAFB7;
   color: #fff;
@@ -447,10 +508,12 @@ p{
   box-shadow: 0px 0px 20px #0000002d;
   position: relative;
 }
+
 .textBoxInner {
   padding: 20px;
   position: relative;
 }
+
 .textboxImage {
   width: 100%;
   height: 100%;
@@ -462,9 +525,11 @@ p{
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
+
 .textBoxImageInner:hover .textboxImage {
   transform: scale(1.05);
 }
+
 /* .textBoxImageInner:hover .textboxImageLayer  {
   opacity: 0.3;
 } */
@@ -475,25 +540,29 @@ p{
   display: block;
   overflow: hidden;
 }
+
 .textboxImageLayer {
   position: absolute;
   width: 75%;
   height: 100%;
   /* background-color: #9aafb787; */
-  background: rgb(154,175,183);
-background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 84%);
+  background: rgb(154, 175, 183);
+  background: linear-gradient(90deg, rgba(154, 175, 183, 1) 3%, rgba(154, 175, 183, 0) 84%);
   opacity: 1;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
+
 .list {
   padding-left: 25px;
 }
+
 .marginTop {
   margin-top: 50px !important;
 }
+
 /* Text Sektion */
 
 /* Contact */
@@ -503,12 +572,14 @@ background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 8
   overflow: hidden;
   margin: 50px 0px;
 }
+
 .contactFormTop {
   background-color: #9AAFB7;
   color: #fff;
   padding-top: 10px;
 }
-.contactTopItem > a {
+
+.contactTopItem>a {
   color: #fff;
   text-decoration: none;
   display: flex;
@@ -517,28 +588,35 @@ background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 8
   align-items: center;
   justify-content: center;
 }
+
 .contactTopIcon {
   font-size: 45px !important;
 }
+
 .contactTopText {
   margin: 10px;
   text-align: center;
 }
+
 .contactFormTopGrid {
   position: relative;
   padding: 10px;
 }
+
 .contactBottomWrapper {
   position: relative;
   padding: 10px;
 }
+
 .contactInput {
   width: 100%;
 }
-#contactCheckbox > span {
+
+#contactCheckbox>span {
   font-size: 14px;
   line-height: 17px;
 }
+
 .contactFormBtn {
   background-color: #9AAFB7 !important;
   padding: 4px 15px 2px 15px !important;
@@ -549,9 +627,11 @@ background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 8
   text-transform: none !important;
   width: 100%;
 }
+
 #contactFormBottomControls {
   margin-top: -20px;
 }
+
 .contactMap {
   position: relative;
   display: block;
@@ -563,36 +643,55 @@ background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 8
   border-radius: 3px;
   height: 350px;
 }
+
 .mapFrame {
   position: relative;
   display: block;
   width: 100%;
   height: 350px;
 }
-#gmap_canvas img{
-  max-width:none!important;
-  background:none!important
+
+#gmap_canvas img {
+  max-width: none !important;
+  background: none !important
 }
+
 .mapouterBody {
   overflow: hidden;
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
+
 .mapInnerBody {
-  position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;
+  position: absolute;
+  width: 80%;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  text-align: center;
 }
+
 .mapSmall {
-  line-height: 1.8;font-size: 2px;background: #fff;
+  line-height: 1.8;
+  font-size: 2px;
+  background: #fff;
 }
+
 .gridImage {
   position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.css-1ff8729-MuiInputBase-root-MuiFilledInput-root, .css-85zwa9-MuiInputBase-root-MuiFilledInput-root {
+
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root,
+.css-85zwa9-MuiInputBase-root-MuiFilledInput-root {
   background-color: rgb(250 250 250) !important;
 }
+
 /* Contact */
 
 /* BREAKPOINTS */
@@ -603,78 +702,115 @@ background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 8
     z-index: 1;
     margin-top: -20px;
   }
-  .HeroBox  > h1 {
+
+  .HeroBox>h1 {
     font-size: 32px;
   }
-  .HeroBox > p {
+
+  .HeroBox>p {
     font-size: 16px !important;
   }
+
   .HeroLogo {
-    width:50px;
+    width: 50px;
     margin: 10px;
   }
+
   .heroCTA {
     font-size: 14px !important;
   }
-  p { font-size: 16px !important;}
+
+  p {
+    font-size: 16px !important;
+  }
+
   .sectionTitle {
     font-size: 28px !important;
+  }
+
+  .servOptItem {
+    height: 250px;
+  }
+
+  #opt1 {
+    background-position: 50% 80%;
+  }
+
+  #opt2 {
+    background-position: 50% 50%;
+  }
+
+  #opt3 {
+    background-position: 50% 30%;
+  }
+
+  .servOptText {
+    padding: 2px;
+    font-size: 20px !important;
+  }
+
+  .container {
+    padding: 100px 0px;
+  }
+
+  .subtitleH3 {
+    font-size: 22px !important;
+  }
+
+  .textBoxInner {
+    padding: 15px;
+  }
+
+  .textBoxImageInner {
+    height: 150px;
+  }
+
+  .textboxImageLayer {
+    width: 100%;
+    background: rgb(154, 175, 183);
+    background: linear-gradient(180deg, rgba(154, 175, 183, 1) 3%, rgba(154, 175, 183, 0) 40%);
+    opacity: 1;
+  }
+
+  .contactTopIcon {
+    font-size: 35px !important;
+  }
+
+  .contactTopItem>a {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .contactFormTopGrid {
+    position: relative;
+    padding: 15px;
+  }
+
+  .contactBottomWrapper {
+    padding: 0px;
+  }
+
+  .css-1avtkvr-MuiGrid-root>.MuiGrid-item {
+    padding-left: 16px;
+  }
+
+  .contactFormTopGrid {
+    padding: 10px 15px;
+  }
+
+  .heroWrapper {
+    height: 75vh;
+  }
 }
-.servOptItem {height: 250px;}
-#opt1 {background-position: 50% 80%;}
-#opt2 {background-position: 50% 50%;}
-#opt3 {background-position: 50% 30%;}
-.servOptText {
-  padding: 2px;
-  font-size: 20px !important;
-}
-.container {
-  padding: 100px 0px;
-}
-.subtitleH3 {
-  font-size: 22px !important;
-}
-.textBoxInner {
-  padding: 15px;
-}
-.textBoxImageInner {
-  height: 150px;
-}
-.textboxImageLayer {
-  width: 100%;
-  background: rgb(154,175,183);
-  background: linear-gradient(180deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 40%);
-  opacity: 1;
-}
-.contactTopIcon {
-  font-size: 35px !important;
-}
-.contactTopItem > a {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  justify-content: flex-start;
-}
-.contactFormTopGrid {
-  position: relative;
-  padding: 15px;
-}
-.contactBottomWrapper {
-  padding: 0px;
-}
-.css-1avtkvr-MuiGrid-root>.MuiGrid-item {
-  padding-left: 16px;
-}
-.contactFormTopGrid {
-  padding: 10px 15px;
-}
-.heroWrapper {
-  height: 75vh;
-}
-}
+
 @media (max-width: 600px) {
-  .servOptItem {height: 220px;}
+  .servOptItem {
+    height: 220px;
+  }
+
   .FooterContainer {
     display: flex !important;
     flex-direction: column;
@@ -682,17 +818,21 @@ background: linear-gradient(90deg, rgba(154,175,183,1) 3%, rgba(154,175,183,0) 8
     align-content: center;
     justify-content: center;
     align-items: center;
+  }
+
+  .FooterTitle {
+    font-size: 26px !important;
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+
+  .FooterLink {
+    text-align: center;
+  }
+
+  .serviceContainer {
+    padding-top: 40px;
+  }
 }
-.FooterTitle {
-  font-size: 26px !important;
-  text-align: center;
-  margin-bottom: 20px !important;
-}
-.FooterLink {
-  text-align: center;
-}
-.serviceContainer {
-  padding-top: 40px;
-}
-}
+
 /* BREAKPOINTS */

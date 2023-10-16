@@ -20,7 +20,7 @@ function App() {
                             <Box className="HeroBox">
                                 <img src="Logo-small-transparent2.png" className='HeroLogo' />
                                 <Typography variant='h1' align='center' color="textPrimary" gutterBottom>
-                                    Notariat Kreußlein
+                                Notare Holland & Kreußlein
                                 </Typography>
                                 <Typography variant='body1' align='center' color="textSecondary" paragraph>
                                     Beglaubigung und Beurkundung Ihrer Dokumente einfach online
@@ -41,7 +41,7 @@ function App() {
 <Box className="mainWrapper">
                     <Container maxWidth="md" className="container serviceContainer">
                         <Typography variant='h2' className='sectionTitle'>Unsere Leistungen</Typography>
-                        <Grid container justifyContent="center" spacing={2}>
+                        <Grid container justifyContent="center" spacing={2} className="leistungenGrid">
                             <Grid item xs={6} sm={3}>
                                 <div className='servOptItem'>
                                 <ModalImmo />
@@ -63,6 +63,7 @@ function App() {
                                 </div>
                             </Grid>
                         </Grid>
+                        <Typography variant='body1'>Für weitere Fragen zu unseren Leistungen können Sie uns gerne <a href="#kontakt">kontaktieren</a>.</Typography>
                     </Container>
 
                     <Box className="bannerSection">
@@ -102,7 +103,7 @@ function App() {
                             Oder kommen Sie uns direkt vor Ort besuchen.
                         </Typography>
                         <Box className="contactMap">
-                        <iframe width="100%" height="500px" frameborder="0" allowfullscreen src="//umap.openstreetmap.de/de/map/notar-kreuslein-holland_47149?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false"></iframe>
+                        <iframe width="100%" height="400px" frameBorder="0" allowFullScreen src="//umap.openstreetmap.de/de/map/notar-kreuslein-holland_47149?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=none&captionBar=false&datalayers=184102"></iframe>
                         </Box>
                 
                     </Container>

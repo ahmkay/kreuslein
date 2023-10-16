@@ -67,7 +67,7 @@ function DrawerAppBar(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" className='drawerTitle' sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }} >
-          <a href="/" className='navTitleLink'>Notariat Kreußlein</a>
+          <a href="/" className='navTitleLink'>Notare Holland & Kreußlein</a>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             <a href="/" style={{ textDecoration: 'none' }} className='navItem'>Home</a>

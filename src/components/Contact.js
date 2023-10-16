@@ -23,14 +23,7 @@ const Contact = () => {
                             Oder kommen Sie uns direkt vor Ort besuchen.
                         </Typography>
                         <Box className="contactMap">
-                            <div className='mapouterBody'>
-                                <iframe className='mapFrame' src="https://maps.google.com/maps?width=990&amp;height=440&amp;hl=en&amp;q=Prenzlauer%20Str.%2011%2C%2016515%20Oranienburg+(Notare%20Holland%20%26%20Kreu%C3%9Flein)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                <div className='mapInnerBody'>
-                                    <small className='mapSmall'>Powered by <a href="https://embedgooglemaps.com/ru/">embed googlemaps ru</a> & <a href="https://sms-lån-som-beviljar-alla.se/">sms lån som beviljar alla</a>
-                                    </small>
-                                </div>
-                            </div><br />
-
+                        <iframe width="100%" height="400px" frameBorder="0" allowFullScreen src="//umap.openstreetmap.de/de/map/notar-kreuslein-holland_47149?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=false&onLoadPanel=none&captionBar=false&datalayers=184102"></iframe>
                         </Box>
                     </Container>
 
